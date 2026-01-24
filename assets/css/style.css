@@ -1,0 +1,337 @@
+/* === Editorial Theme (matching jamaah/gpt) === */
+
+:root {
+  --creme: #F8F5EE;
+  --creme-deep: #F0EBE0;
+  --ink: #2A2622;
+  --ink-soft: #4A4540;
+  --ink-muted: #7A756D;
+  --sepia: #8B7355;
+  --sepia-light: #A89880;
+  --gold: #C4A35A;
+  --rule: #E0DBD0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--creme);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  max-width: 540px;
+  padding: 6rem 2rem 4rem;
+  width: 100%;
+}
+
+/* === Typography === */
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: var(--ink-soft);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--ink-soft);
+}
+
+a {
+  color: var(--sepia);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+strong {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+em {
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* === Header === */
+
+.site-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.site-header h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+}
+
+.subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--sepia);
+}
+
+/* === Tagline === */
+
+.tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.375rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--ink);
+  margin: 2rem 0;
+}
+
+/* === Story / Content === */
+
+.story {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.story p {
+  font-size: 1rem;
+  color: var(--ink-muted);
+  max-width: 420px;
+  margin: 0 auto 1rem;
+}
+
+/* === Divider === */
+
+hr, .divider {
+  border: none;
+  height: 1px;
+  background: var(--rule);
+  margin: 2.5rem 0;
+}
+
+/* === Modes / Features === */
+
+.modes {
+  margin: 2rem 0;
+}
+
+.mode {
+  margin-bottom: 2rem;
+}
+
+.mode-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.mode p {
+  font-size: 0.9375rem;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+/* === Code === */
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875em;
+  background: var(--creme-deep);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: var(--ink-soft);
+}
+
+pre {
+  background: var(--creme-deep);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.8125rem;
+}
+
+/* === Lists === */
+
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  color: var(--ink-soft);
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li::marker {
+  color: var(--sepia-light);
+}
+
+/* === Tables === */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--rule);
+}
+
+th {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+td {
+  color: var(--ink-soft);
+}
+
+/* === Blockquote === */
+
+blockquote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--ink);
+  margin: 2rem 0;
+  padding: 0;
+  border: none;
+}
+
+blockquote p {
+  color: var(--ink);
+}
+
+/* === Note / Footer text === */
+
+.note {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.note p {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* === Navigation === */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+nav a {
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+nav a:hover {
+  color: var(--sepia);
+}
+
+/* === Footer === */
+
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+}
+
+/* === Responsive === */
+
+@media (max-width: 600px) {
+  main {
+    padding: 4rem 1.5rem 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .site-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.125rem;
+  }
+
+  nav {
+    gap: 1.25rem;
+  }
+
+  pre {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+}

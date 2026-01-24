@@ -1,0 +1,10 @@
+title: Qalam
+description: Build expertise. Defeat forgetting.
+baseurl: ""
+url: ""
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
