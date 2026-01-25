@@ -6,16 +6,28 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <!-- Fonts (matching jamaah/gpt) -->
+  <!-- Monospace font for terminal aesthetic -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@300;400;500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo">[QALAM]</span>
+    </div>
+  </header>
+
   <main>
     {{ content }}
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-logo">[QALAM]</span>
+    </div>
+  </footer>
 </body>
 </html>
