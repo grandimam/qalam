@@ -41,6 +41,13 @@ body {
 .logo {
   font-size: 0.875rem;
   font-weight: 600;
+}
+
+.logo-muted {
+  color: #78716c; /* stone-500 */
+}
+
+.logo-bold {
   color: #1c1917; /* stone-900 */
 }
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: From current state to target state
+title: Tools for becoming
 ---
 
 <section class="hero">
   <h1 class="hero-title">QALAM</h1>
   <p class="hero-subtitle">قلم</p>
-  <p class="hero-tagline">From current state to target state.</p>
+  <p class="hero-tagline">Tools for becoming.</p>
 </section>
 
 <div class="card">
@@ -14,26 +14,26 @@ title: From current state to target state
     <h2>What is Qalam?</h2>
   </div>
   <div class="card-content">
-    <p>Qalam is a gap-closing system. We diagnose where you are, map where you need to be, and guide you there.</p>
+    <p>Qalam closes the gap between where you are and where you want to be. We build tools then help you move.</p>
   </div>
 </div>
 
 <div class="products">
   <div class="product">
-    <p class="product-name">Expertise</p>
-    <p class="product-tagline">Build expertise, not just a reading list.</p>
-    <p class="product-desc">Import your books. We quiz you with AI-generated questions. Spaced repetition ensures you actually remember.</p>
+    <p class="product-name">qalam/init</p>
+    <p class="product-tagline">Become the candidate.</p>
+    <p class="product-desc">Paste a job. See where you stand. Know your gaps before you apply then close them.</p>
   </div>
   <div class="product">
-    <p class="product-name">CV</p>
-    <p class="product-tagline">Know why you're not getting hired. Fix what matters.</p>
-    <p class="product-desc">Upload your resume and target job. We diagnose the gaps and prioritize what's worth fixing.</p>
+    <p class="product-name">qalam/read</p>
+    <p class="product-tagline">Become the expert.</p>
+    <p class="product-desc">Turn your documents into learning paths. Track what you actually know, not just what you've read.</p>
   </div>
 </div>
 
 <section class="note">
   <p class="status status-building">
     <span class="status-dot"></span>
-    STILL BUILDING
+    IN PROGRESS
   </p>
 </section>
