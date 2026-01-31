@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Operating system for human expertise
+title: Tools for becoming
 ---
 
 <section class="hero">
   <h1 class="hero-title">QALAM</h1>
   <p class="hero-subtitle">قلم</p>
-  <p class="hero-tagline">Operating system for human expertise.</p>
+  <p class="hero-tagline">Tools for becoming.</p>
 </section>
 
 <div class="card">
@@ -18,16 +18,23 @@ title: Operating system for human expertise
   </div>
 </div>
 
-<div class="products">
-  <div class="product">
-    <p class="product-name">qalam.ink/init</p>
-    <p class="product-tagline">Become the candidate.</p>
-    <p class="product-desc">Paste a job. See where you stand. Know your gaps before you apply then close them.</p>
+<div class="card">
+  <div class="card-header">
+    <h2>Get started</h2>
   </div>
-  <div class="product">
-    <p class="product-name">qalam.ink/read</p>
-    <p class="product-tagline">Become the expert.</p>
-    <p class="product-desc">Turn your documents into learning paths. Track what you actually know, not just what you've read.</p>
+  <div class="card-content">
+    <div class="products-flow">
+      <div class="product">
+        <p class="product-name">/init</p>
+        <p class="product-tagline">Start with a job.</p>
+        <p class="product-desc">Paste a job description. See where you stand.</p>
+      </div>
+      <div class="product">
+        <p class="product-name">/read</p>
+        <p class="product-tagline">Start with content.</p>
+        <p class="product-desc">Paste a document. Track what you actually understand.</p>
+      </div>
+    </div>
   </div>
 </div>
 
