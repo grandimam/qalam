@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Tools for becoming
+title: Operating system for human expertise
 ---
 
 <section class="hero">
   <h1 class="hero-title">QALAM</h1>
   <p class="hero-subtitle">قلم</p>
-  <p class="hero-tagline">Tools for becoming.</p>
+  <p class="hero-tagline">Operating system for human expertise.</p>
 </section>
 
 <div class="card">
   <div class="card-header">
-    <h2>What is Qalam?</h2>
+    <h2>Mission</h2>
   </div>
   <div class="card-content">
-    <p>We build tools to close the gap between where you are and where you want to be.</p>
+    <p>We build tools that help you close the gap between where you are and where you want to be.</p>
   </div>
 </div>
 
